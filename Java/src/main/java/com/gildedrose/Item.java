@@ -1,8 +1,8 @@
 package com.gildedrose;
 
-public class Item {
+public class Item implements UpdateItem {
 
-    public String name;
+    private String name;
 
     public int sellIn;
 
@@ -14,8 +14,22 @@ public class Item {
         this.quality = quality;
     }
 
-   @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
    public String toString() {
         return this.name + ", " + this.sellIn + ", " + this.quality;
+    }
+
+    @Override
+    public void updateSellIn() {
+
+    }
+
+    @Override
+    public void updateQuality() {
+
     }
 }
