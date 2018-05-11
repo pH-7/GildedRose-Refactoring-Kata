@@ -7,9 +7,8 @@ import org.junit.Test;
 public class GildedRoseTest {
 
     @Test
-    public void testQualityDecreseEveryDay()
-    {
-        Item[] items = new Item[] {
+    public void testQualityDecreaseEveryDay() {
+        Item[] items = new Item[]{
                 new Item("+5 Dexterity Vest", 10, 20)
         };
 
