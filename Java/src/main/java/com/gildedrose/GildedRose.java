@@ -47,7 +47,7 @@ class GildedRose {
                 updateAgedBrieQuality(items[i]);
             } else if (items[i].getName().equals("Backstage passes to a TAFKAL80ETC concert")) {
                 updateBackstragePasses(items[i]);
-            } else  {
+            } else {
                 if (items[i].quality > 0) {
                     items[i].quality = items[i].quality - 1;
                 }
